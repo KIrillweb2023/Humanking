@@ -1,0 +1,48 @@
+.promo{
+    height: 700px;
+    padding: 160px 0 100px 0;
+    position: relative;
+    background: url('../img/promo_bg.png') center (center / cover) no-repeat;
+    &__title{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFAEF;
+    }
+    &__wrapper{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__btn{
+        width: 200px;
+        height: 65px;
+        background: #E1FF32;
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 64px;
+        text-align: center;
+        color: #000000;
+        &:hover{
+           background: #fff;
+        }
+    }
+    &__span{
+        width: 55px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        span{
+            width: 12px;
+            height: 12px;
+            border: 1px solid #FFFAEF;
+        }
+        .active{
+            background: #fff;
+        }
+    }
+}
