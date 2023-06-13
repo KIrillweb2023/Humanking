@@ -1,0 +1,41 @@
+.work{
+    height: auto;
+    padding: 0 0 50px 0;
+    &__title{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 89px;
+        text-align: center;
+        color: #006450;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        &-img{
+            width: 700px;
+            img{
+                width: 100%;
+            }
+        }
+        .descr{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 44px;
+            color: #006450;
+
+        }
+        .subdescr{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 16px;
+            color: #006450;
+            margin-top: 400px;
+        }
+        &-text{
+            width: 50%;
+        }
+    }
+}

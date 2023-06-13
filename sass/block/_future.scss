@@ -1,0 +1,31 @@
+.future{
+    background: url(../img/future.png) center (center / cover) no-repeat;
+    height: auto;
+    padding: 240px 0;
+    &__title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 62px;
+        text-align: center;
+        color: #006450;
+
+    }
+    &__btn{
+        width: 205px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 52px;
+        color: #006450;
+        border: 2px solid #006450;
+        background: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 55px;
+        &:hover{
+            background: #fff;
+            transition: 0.6s all;
+            border: none;
+        }
+    }
+}

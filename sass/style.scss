@@ -1,7 +1,11 @@
 @import 'block/header';
 @import 'block/promo';
 @import 'block/designed';
-
+@import 'block/product';
+@import 'block/bathroom';
+@import 'block/work';
+@import 'block/future';
+@import 'block/footer';
 
 
 
@@ -31,10 +35,11 @@ a{
 }
 
 .line{
-    width: 95%;
+    width: 100%;
     height: 2px;
     background: #006450;
     display: block;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
