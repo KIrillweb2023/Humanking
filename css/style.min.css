@@ -3,6 +3,8 @@
   padding: 20px 0;
   background-color: #fff;
   width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 .header nav {
   width: 100%;
