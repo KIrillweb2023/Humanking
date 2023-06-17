@@ -1,0 +1,631 @@
+@media (max-width: 1200px){
+    .header{
+        &__link-logo{
+            width: 135px;
+        }
+    }
+    .promo{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__title{
+            font-size: 30px;
+        }
+    }
+    .designed{
+        .line{
+            width: 97%;
+        }
+        &__wrapper{
+            &-item{
+                width: 600px;
+            }
+            &-title{
+                font-size: 30px;
+            }
+            &-descr{
+                font-size: 18px;
+            }
+            &-btn{
+                font-size: 18px;
+            }
+        }
+    }
+    .product{
+        &__wrapper{
+            &-item{
+                flex-direction: column;
+                align-items: center;
+                .title{
+                    margin-top: 30px;
+                    font-size: 40px;
+                    line-height: 45px;
+                }
+                .subtitle{
+                    margin-top: 30px;
+                }
+                .title-two{
+                    margin-top: 30px;
+                    font-size: 40px;
+                    line-height: 45px;
+                }
+                .subtitle-two{
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                }
+            }
+            &-img{
+                width: 600px;
+            }
+        }
+    }
+    .bathroom{
+        padding: 0 10px;
+        &__title{
+            font-size: 30px;
+        }
+        &__subtitle{
+            font-size: 40px;
+            line-height: 45px;
+        }
+        &__descr{
+            font-size: 20px;
+        }
+        &__wrapper{
+            &-item{
+
+            }
+            &-title{
+                font-size: 30px;
+            }
+            &-descr{
+                font-size: 20px;
+            }
+            &-btn{
+                font-size: 20px;
+            }
+        }
+    }
+    .work{
+        &__title{
+            font-size: 62px;
+            line-height: 70px;
+        }
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            &-text{
+                width: 70%;
+                margin-top: 10px;
+            }
+            .subdescr{
+                margin-top: 40px;
+            }
+        }
+    }
+    .future{
+        &__title{
+            font-size: 50px;
+        }
+    }
+    .footer{
+        padding: 0 20px;
+        &__links a.center{
+            font-size: 25px;
+        }
+    }
+}
+@media (max-width: 992px){
+    .overplay{
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        display: none;
+        transition: all 0.6s;
+        opacity: .75;
+        &.active{
+            display: block;
+        }
+    }
+    .header{
+        height: 100vh;
+        padding: 20px 10px;
+        background-color: #fff;
+        width: 300px;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: 0.6s;
+        &.active{
+            left: 0;
+           
+        }
+        
+        &__link-logo{
+            width: 135px;
+        }
+        .close{
+            display: block;
+        }
+        
+        nav{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+    }
+    .hamburger{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        height: 19px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        span{
+            width: 35px;
+            height: 3px;
+            background-color: #000;
+        }
+    }
+    .promo{
+        &__title{
+            font-size: 28px;
+        }
+    }
+    .product{
+        &__wrapper{
+            &-item{
+                .title{
+                    font-size: 35px;
+                }
+                .title-two{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .bathroom{
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size: 30px;
+            line-height: 35px;
+        }
+        &__descr{
+            font-size: 20px;
+        }
+        &__wrapper{
+            &-item{
+                width: 600px;
+            }
+        }
+    }
+    .work{
+        &__title{
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            &-text{
+                width: 70%;
+                margin-top: 10px;
+            }
+            .subdescr{
+                margin-top: 40px;
+            }
+            &-img{
+                width: 600px;
+            }
+            .descr{
+                font-size: 30px;
+                line-height: 35px;
+            }
+        }
+    }
+    .future{
+        &__title{
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .promo{
+        &__title{
+            line-height: 30px;
+        }
+    }
+    .designed{
+        &__title{
+            margin-top: 40px;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .line{
+            width: 97%;
+        }
+        &__wrapper{
+            margin-top: 20px;
+            &-item{
+                width: 500px;
+            }
+            &-title{
+                font-size: 24px;
+            }
+            &-descr{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            &-btn{
+                font-size: 16px;
+            }
+        }
+    }
+    .product{
+        &__wrapper{
+            &-item{
+                flex-direction: column;
+                align-items: center;
+                .title{
+                    margin-top: 30px;
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+                .subtitle{
+                    margin-top: 30px;
+                }
+                .title-two{
+                    font-size: 30px;
+                }
+            }
+            &-img{
+                width: 500px;
+            }
+        }
+    }
+    .bathroom{
+        &__title{
+            font-size: 30px;
+        }
+        &__subtitle{
+            font-size: 40px;
+            line-height: 45px;
+        }
+        &__descr{
+            font-size: 20px;
+        }
+        &__wrapper{
+            &-item{
+                width: 500px;
+            }
+            &-title{
+                font-size: 25px;
+            }
+            &-descr{
+                font-size: 18px;
+            }
+            &-btn{
+                font-size: 20px;
+            }
+        }
+    }
+    .work{
+        padding: 0 10px;
+        &__wrapper{
+            &-text{
+                width: 100%;
+                margin-top: 10px;
+            }
+            .subdescr{
+                margin-top: 40px;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            &-img{
+                width: 500px;
+            }
+            .descr{
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+    }
+    .future{
+        padding: 100px 0;
+        &__title{
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    .footer{
+        &__links a.center{
+            font-size: 20px;
+        }
+        &__links a{
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 567px){
+    .promo{
+        height: 360px;
+        &__title{
+            line-height: 30px;
+            font-size: 26px;
+        }
+    }
+    .designed{
+        &__title{
+            margin-top: 40px;
+            font-size: 22px;
+            line-height: 24px;
+        }
+        .line{
+            width: 97%;
+        }
+        &__wrapper{
+            margin-top: 20px;
+            &-item{
+                width: 450px;
+            }
+            &-title{
+                font-size: 24px;
+            }
+            &-descr{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            &-btn{
+                font-size: 16px;
+            }
+        }
+    }
+    .product{
+        &__wrapper{
+            &-item{
+                .title{
+                    margin-top: 30px;
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+                .subtitle{
+                    margin-top: 30px;
+                    font-size: 20px;
+                }
+                .subtitle-two{
+                    margin-top: 30px;
+                    font-size: 20px;
+                }
+                .title-two{
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+            }
+            &-img{
+                width: 400px;
+            }
+        }
+    }
+    .bathroom{
+        padding: 0 10px;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size: 30px;
+            line-height: 35px;
+        }
+        &__descr{
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        &__wrapper{
+            &-item{
+                width: 400px;
+            }
+            &-title{
+                font-size: 20px;
+            }
+            &-descr{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            &-btn{
+                font-size: 16px;
+                height: 40px;
+                line-height: 30px;
+            }
+        }
+    }
+    .work{
+        &__title{
+            font-size: 35px;
+            line-height: 40px;
+        }
+        &__wrapper{
+            .subdescr{
+                font-size: 16px;   
+            }
+            &-img{
+                width: 400px;
+            }
+            .descr{
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+    .future{
+        &__title{
+            font-size: 25px;
+            line-height: 35px;
+        }
+        &__btn{
+            font-size: 16px;
+        }
+    }
+    .footer{
+        &__wrapper{
+            flex-wrap: wrap;
+            &-item{
+                width: 100px;
+                margin-top: 20px;
+                .title{
+                    margin-bottom: 0;
+                    font-size: 16px;
+                }
+            }
+            &-link{
+                font-size: 14px;
+            }
+        }
+        &__links{
+            flex-direction: column;
+        }
+    }
+}
+@media (max-width: 480px){
+    .header{
+        width: 270px;
+    }
+    .promo{
+        &__title{
+            line-height: 30px;
+            font-size: 26px;
+        }
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__btn{
+            width: 180px;
+            height: 45px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    }
+    .designed{
+        &__title{
+            margin-top: 40px;
+            font-size: 22px;
+            line-height: 24px;
+        }
+        .line{
+            width: 97%;
+        }
+        &__wrapper{
+            margin-top: 20px;
+            &-item{
+                width: 300px;
+            }
+            &-title{
+                font-size: 20px;
+            }
+            &-descr{
+                font-size: 14px;
+                line-height: 20px;
+                width: 290px;
+            }
+            &-btn{
+                font-size: 14px;
+                line-height: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .product{
+        &__wrapper{
+            &-item{
+                .title{
+                    margin-top: 30px;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .subtitle{
+                    margin-top: 30px;
+                    font-size: 14px;
+                }
+                .subtitle-two{
+                    margin-top: 30px;
+                    font-size: 14px;
+                }
+                .title-two{
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+            &-img{
+                width: 300px;
+            }
+        }
+    }
+    .bathroom{
+        padding: 0 10px;
+        &__title{
+            font-size: 20px;
+        }
+        &__subtitle{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__descr{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        &__wrapper{
+            margin-top: 50px;
+            &-item{
+                width: 400px;
+            }
+            &-title{
+                font-size: 20px;
+            }
+            &-descr{
+                font-size: 14px;
+            }
+            &-btn{
+                font-size: 14px;
+            }
+        }
+    }
+    .work{
+        &__title{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        &__wrapper{
+            .subdescr{
+                font-size: 14px;   
+            }
+            &-img{
+                width: 300px;
+            }
+            .descr{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    .future{
+        &__btn{
+            width: 170px;
+            height: 40px;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        &__title{
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}
